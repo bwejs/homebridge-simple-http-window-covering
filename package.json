@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-simple-http-window-covering",
+  "version": "1.0.0",
+  "description": "A Simple Window Covering Plugin for HomeBridge",
+  "main": "index.js",
+
+   "keywords": [
+    "homebridge-plugin"
+  ],
+    "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Bernhard Weiß"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:bwejs/homebridge-simple-http-window-covering.git"
+},
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "_id": "homebridge-simple-http-window-covering@1.0.0"
+}

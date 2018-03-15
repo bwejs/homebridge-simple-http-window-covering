@@ -1,0 +1,18 @@
+{
+    "bridge": {
+        "name": "HomeBridge",
+        "username": "AA:11:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "111-33-444"
+    },
+    "description": "HomeBridgeHTTP-Window-Covering",
+    "accessories": [
+        {
+          "accessory": "HTTP-Window-Covering",
+          "name": "Covering",
+          "open-URL": "http://192.168.1.1/open",
+          "close-URL": "http://192.168.1.1/close",
+          "valueMapping": {"closed" : 0 , "kind of closed": 30, "open" : 100},
+        }
+    ]
+}
